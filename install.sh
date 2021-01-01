@@ -6,7 +6,8 @@ tf-install () {
             source ~/Anaconda3/etc/profile.d/conda.sh init bash
             conda activate tf
             conda install -y pip
-            pip install -y keras
+            pip install keras
+            pip install tensorflow-datasets
             conda deactivate
         fi
     fi
